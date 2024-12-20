@@ -1,0 +1,15 @@
+class Logic1 
+{
+    static int x = 10;  
+    public  Logic1() 
+    {
+        x = 50;
+        x++;
+    }
+    public static void main(String[] args) 
+    {
+        Logic obj = new Logic();
+        x++;
+        System.out.println(obj.x++ + x);
+    }
+}

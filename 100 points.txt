@@ -1,0 +1,291 @@
+100 points
+1. Which keyword is used by the member to refer to the object that invoked it?
+a) import
+b) class
+c) new
+d) this
+Answer: D this
+
+3.What will be the output:
+class Logic
+{
+    int x;  
+    public Constructor(int x) 
+    {
+        this.x = 5;
+    }
+    public static void main(String[] args) 
+    {
+        MainClass obj = new MainClass(90);
+       obj.x=9;
+        System.out.println(obj.x);
+    }
+}
+a) 5
+b) 0
+c) CTE
+d) 90
+Answer: CTE
+
+4.What will be the output:
+class Logic 
+{
+    int x; 
+    Logic()
+    {
+      int x=10;
+    }
+    public void Logic() 
+    {
+        x = 100;
+    }
+    public static void main(String[] args) 
+    {
+        Logic obj = new Logic();
+        int x =20;
+        System.out.println(obj.x);
+    }
+}
+
+a)10
+b)100
+c)20
+d)0
+Answer: 0
+
+5. What is the output of the following Java code?
+
+class Logic 
+{
+    static int x = 10;  
+    public  Logic() 
+    {
+        x = 50;
+        x++;
+    }
+    public static void main(String[] args) 
+    {
+        Logic obj = new Logic();
+        x++;
+        System.out.println(obj.x++ + x);
+    }
+}
+a)22
+b)60
+c)26
+d)105
+Answer: 105
+
+6.What is the outpout of the following java code:
+class Logic 
+{
+    private int x;
+    private Logic()
+    {
+        System.out.println("Constructor Called");
+        x = 100;
+    }
+   public static void main(String[] args)
+   {
+       Logic obj = new Logic();
+       x=100;
+       x++;
+       System.out.println("Value of x = " + obj.x);
+   }
+}
+a) 0
+b) 100
+c) CTE
+d) 101
+Answer: CTE
+
+7. What will the output:
+class Logic 
+{
+   private int x=1;
+    private Logic()
+    {
+        System.out.print("Constructor Called");
+        x = 100;
+    }
+   public static void main(String[] args)
+   {
+       Logic obj = new Logic();
+       System.out.println("Value of x = " + obj.x);
+   }
+}
+a)CTE
+b)Constructor CalledValue of x = 100
+c)Constructor CalledValue of x = 0
+d)Constructor CalledValue of x = 1
+
+answer B
+
+8.What will be the output:
+What is the output of the following Java code?
+class Sample 
+{
+    static int x=10;
+    Sample()
+    {
+        this.x = x;
+    }
+    public static void main(String[] args)
+    {
+        Sample obj = new Sample();
+        x=20;
+        System.out.println(Sample.x);
+   x++;
+    }
+}
+a) CTE 
+b) 10
+c) 20
+d) 21
+Answer: 20
+
+9. What is the output of the following:
+class Demo 
+{
+    int x=10;
+    Demo()
+    {
+        System.out.print(x+" ");
+    }
+    Demo(int x)
+    {
+        this.x = x;
+        System.out.print(x+" ");
+    }
+    public static void main(String[] args)
+    {
+        Demo d1 = new Demo(15);
+       Demo d2 = new Demo(20);
+       Demo d3 = new Demo();
+        System.out.println(d2.x);
+    }
+}
+
+a)0 15 20 10
+b)10 0 15 20
+c)15 20 10 20
+d)20 20 20 20
+Answer: C
+
+10.What will be the output:
+class Car 
+{
+    int wheel=4;  
+    public void Constructor(int x) 
+    {
+        this.wheel = x;
+        System.out.print(x+" ");
+    }
+ 
+    public static void main(String[] args) 
+    {
+        Car obj = new Car();
+   int wheel=5;
+        System.out.println(obj.wheel);
+    }
+}
+a)0
+b)4
+c)CTE
+d)5
+Answer: B
+
+Programming Questions:
+1.Write a program to print the names of students by creating a Student
+class. If no name is passed while creating an object of Student class, 
+then the name should be "Unknown", otherwise the name should be equal 
+to the String value passed while creating object of Student class.
+Demonstrate constructor overloading for the above situation.
+
+
+
+3.Create a class Library to represent a library. 
+Implement constructor overloading to initialize the library object
+with different sets of parameters, such as only libraryName, or libraryName
+and location. Provide methods to add books to the library, lend books 
+to members, and display all the details such as name of library,
+location,no. of books,no. of books lend to people,remaining books in library.
+
+4.Create a class Student with
+Data members: name, rollNumber, department, and semester.
+Implement constructor overloading to initialize the object with
+different combinations of parameters, such as only name and rollNumber, 
+or name, rollNumber, and department.
+Provide methods to calculate the GPA of the student and display
+student information.
+
+5. Create a class Course with 
+Data Members: courseCode, courseName, department, and credits. 
+Implement constructor overloading to initialize the object with different 
+combinations of parameters, such as only courseCode and courseName, or 
+courseCode, courseName, and department.
+Provide methods to calculate the total credits of a department and
+display course information.
+
+6.Create a class Employee with 
+Data Members: name, employeeId, designation, and salary. 
+Implement constructor overloading to initialize the object with different
+combinations of parameters, such as only name and employeeId, or name, 
+employeeId, and designation. Provide methods to calculate the bonus of 
+an employee and display employee information.Each employye gets a bonus of 
+10% of his salary.
+
+7. Write a class template 'Calculator' with the following specifications:
+Class : Display
+Data members/Instance variables
+int a,b,c;
+Member Methods:
+void Accept():    to accept the values of a and b.
+void Max():    to find greater of the two number 'a' and 'b' 
+                 and store the result in c. Display the result.
+void Min():    to find smaller of the two number 'a' and 'b' and store 
+               the result in c. Display the result.
+void Diff():    to store the difference between 'a' and 'b' and store the 
+               result in c. Display the result.
+Write a main class to create an object of class 'Display' and call the member
+methods.
+
+8.Create a class Course with attributes courseCode, courseName,
+department, and credits. Implement constructor overloading to initialize 
+the object with different combinations of parameters, such as only 
+courseCode and courseName, or courseCode, courseName, and department.
+Provide methods to calculate the total credits of a department and
+display course information.
+
+9. Write a program to accept a two different characters & display
+the sum & difference of their ASCII values.
+SampLe i/p: A
+            D
+Sample o/p:    The sum of ASCII values = 165
+               The difference of ASCII values =35 
+
+10.Specify a class called Finder with the following overloaded methods:
+ int findMax(int n1,int n2): returns the lasrgest from n1 and n2
+ int findMax(int n1,int n2,int n3): return largest from n1,n2 and n3
+
+11.A game of throwing dice is played between two players. 
+Each player throws a dice unless his score adds up to 20. 
+The player getting score 20 in minimum number of throws is declared 'Winner'.
+Define a class Game with the following specifications:
+Class name: Game
+Data members: name, player number.
+Member methods:
+i. to accept the details of players
+ii. to compute the number of tries by each player to get score 20.
+iii. to display the result.
+Write a main method to create object of a class and call the above.
+
+12.Define a class called ParkingLot with the following description:
+Instance variables/Data members:
+String vno
+int hours
+double bill
+Member methods:
+ParkingLot(): to input the vno and hours
+void calculate() : to compute the parking charge at the rate Rs.30 for the 
+first hour and 1.50 for each additional hour.

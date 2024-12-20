@@ -6,9 +6,9 @@ class Test
 		for(r=0;r<nr;r++)
 		{
 			for(c=0;c<nc;c++){
-			System.out.print("*");
+			System.out.print(nc);
 			}
-			System.out.println();
+			System.out.println("*");
 	    }
 	}
 }

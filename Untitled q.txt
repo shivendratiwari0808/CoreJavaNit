@@ -1,0 +1,55 @@
+/*
+Program-2 [5-POINTS]
+--------------------
+Write a program to perform addition,subtraction, multiplication and division between two numbers using 3rd variable? Take static methods addition(), subtraction(), multiplication() and division(). Take two input values using constructor and call all the methods from the main class?
+
+input :-
+--------
+enter first number  20
+
+enter second number 10
+
+output :-
+----------
+addition of - 20 + 10 ->30
+subtraction of - 20-10 -?10
+multiplication of 20 and 10 -> 2000
+division  of 20%10 -> 2.
+*/
+
+
+
+import java.util.Scanner;
+class Caculator{
+    long num1;
+    long num2;
+    Caculator(){
+        this.num1=num1;
+        this.num2=num2;
+    }
+    public long addition(){
+        return num1+num2;
+    }
+    public long subtraction(){
+        return num1-num2;
+    }
+    public long multiplication(){
+        return num1*num2;
+    }
+    public long division(){
+        return num1/num2;
+    }
+    public void display(){
+        System.out.pritnln("addition :"+addition());
+        System.out.pritnnl("sustration :"+subtraction());
+        System.out.pritnln("multiplication :"+multiplication());
+        System.out.println("division :"+division());
+    }
+    
+}
+public class Result{
+	public static void main(String[]args){
+	Caculator c1=new Caculator(10,5);
+	c1.display();
+	}	
+} 

@@ -1,0 +1,56 @@
+difference  between is a and has a relation
+
+Drawback of inheritance
+-----------------------
+
+1 what is difference .Equals double ==equal?
+
+2 how internally .Equals and ==Equals?
+
+3 what is the work of compare to the method string wite your custom code to create compare to method which will works same as string compare to method? write the code within 5 line only.
+
+4 wap to final toString anagram or not?
+
+5 wap to find string palindrome or not?
+
+6 wap to find out how many palindrome present in sentances?
+
+7 wap to find the feqrancy of the element in the string?
+
+8 wap to reverse a string all its own place..
+ example "hello guys"
+op: olleh
+9 what is string constant pool
+
+10 diff between string string bulder,string buffer;
+ 
+11 what is mutable and immutable ?
+
+12 wap own immutable class?
+	String s=1+2"hello"+1+2+3+"bye";
+	Sysout (s);
+	String a1=
+------------------------------------------------------
+13 diff between ckecked unckecked
+14 diff between thow and throws
+15 draw a heirchey of exepction forms
+16 when will go for checked and when will go for unchecked
+17 any new feature of exception
+18 how its possible to catch unknown exception
+19 why multiple catch is nesscery?
+20 what is difference between Exception and error
+21 what is custom Exception and which exception class we have to inherit
+22 what is exception propagation
+23 what is possibility of writing try  catch and finally
+24 difference between final,finally,and finilize
+25 can we write try block inside finally
+26 can we write try block inside catch'
+27 can we write nested try catch
+29 it is possible to remove exception concept with if else and return 
+30 what do you mean by try with resource;
+---------------------------------------------------------------
+31 wap to print 1 to 100 without using any single number or digit.
+
+
+
+

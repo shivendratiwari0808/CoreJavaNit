@@ -1,0 +1,15 @@
+1. types of Arrays
+2. how many ways Arrays create in java
+3. what is the limitation of the array
+4  how can we cvercome the limitation of Array
+5   wap asc dec nth max min
+6   some of elements of array 
+7  ISA Array palindrome
+8 given Array of integer which contains some () move all() to right changing order of other 
+9 tell some predefined methid of Array class
+10 counstuctor of Array size
+11 what is length in Array
+13 prints all the subArrays of the array
+14 given array of integer target sum find the pairs of which sum = target sum
+15 what is the purpose of copyOf method
+16 can we create constructor for Array class 
