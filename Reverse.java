@@ -1,4 +1,4 @@
-	class Test{
+	class Reverse{
 		public static void main(String[]args)
 		{
 			int nr=5,nc=8,r,c,a;
