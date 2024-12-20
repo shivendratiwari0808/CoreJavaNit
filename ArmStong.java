@@ -7,21 +7,21 @@ class ArmStrong{
 
 public static void main(String[]args){
 
-	int num=154,sum=0,i=0,mul;
+	int num=153,sum=0,count=0,i=0,mul;
 	while(i<num)
 	{
 	int rem=num%10;
-	//mul=rem*rem*rem;
-	sum+=rem*rem*rem;
+	mul=rem*rem*rem;
+	sum=num+mul;
 	num=num/10;
 	}
 	num=153;
 	if(num==sum)
 	{
-	System.out.println("this is armstrong number "+sum);
+	System.out.println("this is armstrong number"+sum);
 	}
 	else{
-	System.out.println("not a armstrong number "+sum);
+	System.out.println("not a armstrong number"+sum);
 	}
 }
 }

@@ -51,7 +51,6 @@ public void getDetails(){     // note : in java represents operations/behaviour.
 public static void main(String[]args){
 	System.out.println("main starts");
       Furniture studyTable = new Furniture();
-
 	studyTable.type = "Table";
 	studyTable.material = "wood";
 	studyTable.colour = "brown";

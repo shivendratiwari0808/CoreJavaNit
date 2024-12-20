@@ -2,8 +2,7 @@
 Java to calculate and display the hypotenuse of a Right-Angled Triangle by
 taking perpendicular and base as inputs.
 
- h = √p2 + b2  
-*/
+ h = √p2 + b2  */
 
 
 
